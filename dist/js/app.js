@@ -137,7 +137,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/dist/";
+/******/ 	__webpack_require__.p = "/career/dist/";
 /******/
 /******/ 	var jsonpArray = window["webpackJsonp"] = window["webpackJsonp"] || [];
 /******/ 	var oldJsonpFunction = jsonpArray.push.bind(jsonpArray);
@@ -362,7 +362,7 @@ var render = function() {
               "div",
               {
                 staticClass: "oneTab",
-                class: { active: _vm.i == _vm.content },
+                class: { active: 0 === _vm.content },
                 on: {
                   click: function($event) {
                     return _vm.changeContent(0)
